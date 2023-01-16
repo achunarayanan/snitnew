@@ -1,0 +1,267 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 2%;
+    line-height: 1.5;
+}
+
+hr{
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin:auto;
+}
+
+
+/* navigation-bar */
+
+#navigation-bar{
+    background-color: #31E1F7;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+/* carousel */
+
+#carousel{
+   padding: 3%;
+   max-width: 100%;
+}
+.carousel-btn{
+     background-color: #5BC0F8;
+     border-radius: 100%;
+}
+.carousel-img{
+     width: 100%;
+     border-radius: 5%;
+}
+
+/* info */
+
+#info{
+    padding:7% 15%;
+}
+/* .info-box{
+    padding: 5%;
+} */
+.info-para{
+    margin: auto;
+    line-height: 2;
+}
+
+/* mission */
+
+#mission{
+  text-align: left;
+  padding:7% 15%;
+}
+.snitcover-img{
+    width: 99%;
+    position: relative;
+    left: 60px;
+    top: 50px;
+    border-radius: 5%;
+}
+.mission-btn{
+    margin-top: 10px;
+}
+
+/* principal */
+
+#principal{
+    padding:7% 15%;
+}
+.principal-title{
+  position: relative;
+  bottom: 35px;
+}
+.principal-img{
+    width: 80%;
+    height: 80%;
+    border-radius:5%;
+    /* padding: 3%; */
+    /* position: relative;
+    right: 35px; */
+}
+.principal-para-1{
+    text-align: left;
+    /* position: relative;
+    right:30px; */
+}
+.principal-para-2{
+    text-align: left;
+    /* position: relative;
+    right:30px; */
+    font-weight: bold;
+  } 
+/* .principal-box{
+    padding:4%;
+} */
+
+/* login */
+
+#log-in{
+    padding: 7% 15%;
+}
+
+/* features */
+
+/* #features{
+    padding: 10%;
+}
+.cards{
+    padding: 20px;
+} */
+
+/* contact */
+
+#contact{
+    padding: 5%;
+    /* background-color: #82AAE3; */
+}
+
+/* faculty.html */
+
+
+.faculty-heading{
+  padding: 5%;
+  font-weight: bold;
+}
+.faculty-img{
+  width: 60%;
+  height: 70%;
+  border-radius: 5%;
+  border: grey 5px solid;
+}
+.faculty-name{
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 3%;
+}
+.faculty-box{
+  padding: 2%;
+}
+
+/* register */
+
+/* .form-signin{
+  padding: 35%;
+} */
+
+/* mediaQuery */
+
+@media (max-width:1028px){
+
+  #info{
+    padding: 7% 5%;
+  }
+  #mission{
+    padding: 7% 5%;
+  }
+  #principal{
+    padding: 7% 5%;
+  }
+  .nav-item{
+    text-align: left;
+  }
+   
+   /* info */
+
+   hr{
+    width: 10%;
+   }
+
+    h3{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+     .info-para{
+        font-size: 1rem;
+        text-align: left;
+        /* position: relative;
+        right: 33px; */
+    }
+
+    /* mission */
+
+      .snitcover-img{
+          position: relative;
+          left: 0;
+          padding-bottom: 15%;
+      }
+      .mission-title{
+        font-size:1.5rem ;
+      }
+      .mission-para{
+        font-size:1rem ;
+      }
+
+      /* principal */
+
+      .principal-title{
+        font-size: 1.5rem;
+        padding: 5%;
+        text-align: left;
+        position: relative;
+        top: 8px;
+      }
+      .principal-img{
+        text-align: left;
+        position: relative;
+        right:36px;
+        /* width: 80%; */
+
+      }
+ 
+      .principal-para-1{
+        text-align: left;
+        font-size: 1rem;
+        /* position: relative;
+        left: 10px; */
+      }
+      .principal-para-2{
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+        /* padding-top: 5%; */
+        /* position: relative;
+        left: 8px; */
+      } 
+      .principal-box{
+        padding: 4%;
+      }
+      #log-in{
+        padding: 10% 5% ;
+      }
+      .log-in-title{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 3%;
+      }
+
+      #contact{
+        text-align: center;
+      }
+      .contact-info{
+        text-align: center;
+        font-size: 1.5rem;
+      } 
+
+      /* faculty.html */
+
+      .faculty-name{
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
